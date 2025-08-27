@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
         slides[index].classList.add("active");      // mostrar siguiente
     }
 
-    setInterval(showNextImage, 3000); // cambiar cada 5s
+    setInterval(showNextImage, 1500); //
 });
 
 document.addEventListener("DOMContentLoaded", () => {
