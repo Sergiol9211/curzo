@@ -6,257 +6,138 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curso Virtual de Epilación, Diseño y Sombreado de Cejas</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-    <style>
-        * {
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: 'Poppins', sans-serif;
-            margin: 0;
-            color: #333;
-        }
-
-        header {
-            background: linear-gradient(135deg, #000000, #000000);
-            color: white;
-            text-align: center;
-            padding: 3rem 1rem;
-        }
-
-        header img {
-            width: 100%;
-            max-width: 600px;
-            height: auto;
-            display: block;
-            margin: 0 auto 1rem auto;
-            border-radius: 10px;
-        }
-
-        header h1 {
-            margin-bottom: 0.5rem;
-        }
-
-        header p {
-            margin: 0.5rem 0;
-            font-size: 1.2rem;
-        }
-
-        section {
-            padding: 2rem 1rem;
-            max-width: 900px;
-            margin: auto;
-        }
-
-        h2 {
-            color: #000000;
-            margin-bottom: 1rem;
-        }
-
-        p {
-            line-height: 1.6;
-        }
-
-        ul {
-            list-style: disc;
-            padding-left: 1.5rem;
-        }
-
-        .btn {
-            background: #62e95e;
-            color: black;
-            padding: 0.8rem 1.5rem;
-            text-decoration: none;
-            border-radius: 30px;
-            display: inline-block;
-            margin-top: 1rem;
-            transition: 0.3s;
-        }
-
-        .btn:hover {
-            background: #0bfa47;
-        }
-
-        .btn-negro {
-            background: black;
-            color: white;
-            padding: 0.8rem 1.5rem;
-            text-decoration: none;
-            border-radius: 30px;
-            display: inline-block;
-            margin-top: 1rem;
-            transition: 0.3s;
-        }
-
-        .btn-negro:hover {
-            background: #333;
-        }
-
-        footer {
-            background: #333;
-            color: white;
-            text-align: center;
-            padding: 1rem;
-            margin-top: 2rem;
-        }
-
-        .aviso-envio {
-            background: #fff34b;
-            color: black;
-            text-align: center;
-            padding: 1rem;
-            border-radius: 10px;
-            margin: 2rem auto;
-            font-weight: bold;
-            max-width: 600px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-            animation: resaltar 1s infinite alternate;
-        }
-
-        @keyframes resaltar {
-            from {
-                transform: scale(1);
-            }
-
-            to {
-                transform: scale(1.05);
-            }
-        }
-
-        @media (min-width: 768px) {
-            header h1 {
-                font-size: 3rem;
-            }
-
-            header p {
-                font-size: 1.5rem;
-            }
-
-            section {
-                padding: 3rem;
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-
     <header>
-        <img src="imagen3.jpg" alt="Portada Curso de Cejas">
         <h1>Curso Virtual de Epilación, Diseño y Sombreado de Cejas</h1>
+        <div class="slider">
+            <img src="imagen1.jpg" alt="Curso Cejas 1" class="active">
+            <img src="imagen2.jpg" alt="Curso Cejas 2">
+            <img src="imagen3.jpg" alt="Curso Cejas 3">
+            <img src="imagen4.jpg" alt="Curso Cejas 4">
+            <img src="imagen5.jpg" alt="Curso Cejas 5">
+            <img src="imagen6.jpg" alt="Curso Cejas 6">
+            <img src="imagen7.jpg" alt="Curso Cejas 7">
+        </div>
         <p>Aprende desde casa con asesoría personalizada por 3 meses</p>
         <p>¡Inscríbete ahora y transforma tu carrera!</p>
         <p>Curso 100% virtual con acceso a videos, guías y soporte continuo</p>
     </header>
 
-    <section>
-        <h2>¿Qué aprenderás?</h2>
-        <p>Domina las técnicas profesionales de epilación, diseño y sombreado de cejas. Nuestro curso incluye teoría,
-            práctica, acompañamiento personalizado y la posibilidad de adquirir un kit profesional (opcional).</p>
-    </section>
-
-    <section class="temario">
-        <h2>Contenido del Curso</h2>
-        <ul>
-            <li>Epilación profesional de cejas con cera dermatológica</li>
-            <li>Preparación correcta de la piel</li>
-            <li>Principios de visajismo y diseño personalizado</li>
-            <li>Elección del tono ideal para cada cliente</li>
-            <li>Instrucciones de uso y tiempos de aplicación</li>
-            <li>Cuidados posteriores al procedimiento</li>
-            <li>Recomendaciones y tips para un acabado impecable</li>
-        </ul>
-    </section>
-
-    <section>
-        <h2>Beneficios del Taller</h2>
-        <ul>
-            <li>Acceso a la grabación por 1 mes</li>
-            <li>Asesoría virtual personalizada durante 3 meses</li>
-            <li>Certificado</li>
-            <li>Material de apoyo en PDF</li>
-            <li>Grupo exclusivo para acompañamiento y dudas</li>
-        </ul>
-    </section>
-
-    <section>
-        <h2>¿Qué incluye el Kit?</h2>
-        <ul>
-            <li>Cera dermatológica</li>
-            <li>Pinza profesional</li>
-            <li>Cepillos para cejas</li>
-            <li>Kit de Henna (3 tonos)</li>
-            <li>Activador de Henna</li>
-            <li>Removedor de Henna</li>
-            <li>Brochas profesionales</li>
-            <li>Aplicadores desechables</li>
-            <li>Palitos de naranjo</li>
-            <li>Pomitos</li>
-            <li>Lienzo para cera</li>
-            <li>Mortero</li>
-            <li>Shampoo</li>
-            <li>Pie de rey</li>
-        </ul>
-
-        <div class="aviso-envio">
-            <h2>¡Adquire el kit! ¡Envío gratis a toda Colombia!</h2>
-        </div>
-    </section>
-
-    <section>
-        <h2>Inscripción Abierta</h2>
-        <p>¡Cupos limitados! Asegura tu lugar en el curso. Puedes inscribirte con o sin kit.</p>
-        <p>Preventa válida hasta el 1 de agosto</p>
-
-        <h3>Valor sin Kit</h3>
-        <p>Valor regular: $300.000 COP (USD 78 aprox)</p>
-        <p><strong>Precio preventa: $250.000 COP (USD 65 aprox)</strong></p>
-        <a href="https://checkout.bold.co/payment/LNK_S2E3LA8BE5" target="_blank" class="btn">¡Inscribirme sin Kit!</a>
-
-        <h3>Valor con Kit</h3>
-        <p>Valor regular: $660.000 COP (USD 165 aprox)</p>
-        <p><strong>Precio preventa: $610.000 COP (USD 152.5 aprox)</strong></p>
-        <a href="https://checkout.bold.co/payment/LNK_DMPNTJORNA" target="_blank" class="btn">¡Inscribirme con Kit!</a>
-
-        <h2>Otras Formas de pago</h2>
-        <p>
-            <img src="nequi.png" alt="Nequi" style="height:24px; vertical-align:middle; margin-right:8px;" />
-            Nequi - 3135048789
-        </p>
-        <p>
-            <img src="ban.png" alt="Bancolombia" style="height:24px; vertical-align:middle; margin-right:8px;" />
-            Bancolombia - 28522060609
-        </p>
-        <p>
-            <img src="davi.png" alt="Daviplata" style="height:24px; vertical-align:middle; margin-right:8px;" />
-            Daviplata - 3185878056
-        </p>
-
+    <main>
+        <section>
+            <h2>¿Qué aprenderás?</h2>
+            <p>Domina las técnicas profesionales de epilación, diseño y sombreado de cejas. Nuestro curso incluye
+                teoría,
+                práctica, acompañamiento personalizado y la posibilidad de adquirir un kit profesional (opcional).</p>
         </section>
-    
-    <section>
-        <h2>Nuestras Redes Sociales</h2>
-        <p>Síguenos en TikTok <a href="https://www.tiktok.com/@angievarela.q?_t=ZS-8xTt4lb6G4Q&_r=1" target="_blank"
-                rel="noopener">@angievarela.q</a></p>
-        <p>Síguenos en Instagram <a href="https://www.instagram.com/angievarela.studio?igsh=MW5kaDFia292a3cwNA=="
-                target="_blank" rel="noopener">@angievarela.studio</a></p>
-        <p>Síguenos en Facebook <a href="https://www.facebook.com/profile.php?id=100066274462174" target="_blank"
-                rel="noopener">Angie Varela Studio</a></p>
 
-        <p>💖 ¡Conoce nuestro trabajo y enamórate de lo que hacemos!<br>
-            Síguenos en nuestras redes sociales, descubre los resultados de nuestras alumnas, mira sus prácticas y
-            testimonios reales.<br>
-            🔥 Únete a nuestra comunidad y da el primer paso para convertirte en experta en cejas. ¡Te esperamos!
-        </p>
+        <section class="temario">
+            <h2>Contenido del Curso</h2>
+            <ul>
+                <li>Epilación profesional de cejas con cera dermatológica</li>
+                <li>Preparación correcta de la piel</li>
+                <li>Principios de visajismo y diseño personalizado</li>
+                <li>Elección del tono ideal para cada cliente</li>
+                <li>Instrucciones de uso y tiempos de aplicación</li>
+                <li>Cuidados posteriores al procedimiento</li>
+                <li>Recomendaciones y tips para un acabado impecable</li>
+            </ul>
+        </section>
 
-        <a href="https://wa.me/573135048789?text=Hola!+Te+env%C3%ADo+mi+comprobante+de+inscripci%C3%B3n+al+curso"
-            target="_blank" class="btn-negro">Enviar comprobante aquí</a>
-    </section>
+        <section>
+            <h2>Beneficios del Taller</h2>
+            <ul>
+                <li>Acceso a la grabación por 1 mes</li>
+                <li>Asesoría virtual personalizada durante 3 meses</li>
+                <li>Certificado</li>
+                <li>Material de apoyo en PDF</li>
+                <li>Grupo exclusivo para acompañamiento y dudas</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>¿Qué incluye el Kit?</h2>
+            <ul>
+                <li>Cera dermatológica</li>
+                <li>Pinza profesional</li>
+                <li>Cepillos para cejas</li>
+                <li>Kit de Henna (3 tonos)</li>
+                <li>Activador de Henna</li>
+                <li>Removedor de Henna</li>
+                <li>Brochas profesionales</li>
+                <li>Aplicadores desechables</li>
+                <li>Palitos de naranjo</li>
+                <li>Pomitos</li>
+                <li>Lienzo para cera</li>
+                <li>Mortero</li>
+                <li>Shampoo</li>
+                <li>Pie de rey</li>
+            </ul>
+        <section>
+            <h2>Testimonios de Nuestras Alumnas</h2>
+            <div class="slider2">
+                <img src="imagen8.jpg" alt="Curso Cejas 8" class="active">
+                <img src="imagen9.jpg" alt="Curso Cejas 9">
+                <img src="imagen10.jpg" alt="Curso Cejas 10">
+                <img src="imagen11.jpg" alt="Curso Cejas 11">
+            </div>
+        </section>
+
+            <div class="aviso-envio">
+                <h2>¡Incluye envío gratis a toda Colombia!</h2>
+            </div>
+        </section>
+
+        <section>
+            <h2>Inscripción Abierta</h2>
+            <p>¡Cupos limitados! Asegura tu lugar en el curso. Puedes inscribirte con o sin kit.</p>
+            <p>Preventa válida hasta el 1 de agosto</p>
+
+            <h3>Valor sin Kit</h3>
+            <p>Valor regular: $300.000 COP (USD 78 aprox)</p>
+            <p><strong>Precio preventa: $250.000 COP (USD 65 aprox)</strong></p>
+            <a href="https://checkout.bold.co/payment/LNK_S2E3LA8BE5" target="_blank" class="btn">¡Inscribirme sin
+                Kit!</a>
+
+            <h3>Valor con Kit</h3>
+            <p>Valor regular: $660.000 COP (USD 165 aprox)</p>
+            <p><strong>Precio preventa: $610.000 COP (USD 152.5 aprox)</strong></p>
+            <a href="https://checkout.bold.co/payment/LNK_DMPNTJORNA" target="_blank" class="btn">¡Inscribirme con
+                Kit!</a>
+
+            <h2>Otras Formas de pago</h2>
+            <p><img src="nequi.png" alt="Nequi" class="icon" /> Nequi - 3135048789</p>
+            <p><img src="ban.png" alt="Bancolombia" class="icon" /> Bancolombia - 28522060609</p>
+            <p><img src="davi.png" alt="Daviplata" class="icon" /> Daviplata - 3185878056</p>
+        </section>
+
+        <section>
+            <h2>Nuestras Redes Sociales</h2>
+            <p>Síguenos en TikTok <a href="https://www.tiktok.com/@angievarela.q?_t=ZS-8xTt4lb6G4Q&_r=1"
+                    target="_blank">@angievarela.q</a></p>
+            <p>Síguenos en Instagram <a href="https://www.instagram.com/angievarela.studio"
+                    target="_blank">@angievarela.studio</a></p>
+            <p>Síguenos en Facebook <a href="https://www.facebook.com/profile.php?id=100066274462174"
+                    target="_blank">Angie Varela Studio</a></p>
+
+            <p>💖 ¡Conoce nuestro trabajo y enamórate de lo que hacemos!<br>
+                Descubre los resultados de nuestras alumnas, mira sus prácticas y testimonios reales.<br>
+                🔥 Únete a nuestra comunidad y da el primer paso para convertirte en experta en cejas. ¡Te esperamos!
+            </p>
+
+            <a href="https://wa.me/573185878056?text=Hola!+Te+env%C3%ADo+mi+comprobante+de+inscripci%C3%B3n+al+curso"
+                target="_blank" class="btn-negro">Enviar comprobante aquí</a>
+        </section>
+    </main>
 
     <footer>
         <p>© 2025 Angie Varela Studio | Todos los derechos reservados</p>
     </footer>
 
+    <script src="script.js"></script>
 </body>
 
 </html>
