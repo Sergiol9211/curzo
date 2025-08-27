@@ -63,12 +63,16 @@ ul {
 }
 
 .btn {
-    background: #62e95e;
+    background: hsl(96, 100%, 65%);
     color: black;
-}
-
-.btn:hover {
-    background: #0bfa47;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 10px;
+    margin: 2rem auto;
+    font-weight: bold;
+    max-width: 600px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    animation: resaltar 0.5s infinite alternate;
 }
 
 .btn-negro {
@@ -88,18 +92,6 @@ footer {
     margin-top: 2rem;
 }
 
-.aviso-envio {
-    background: #fff34b;
-    color: black;
-    text-align: center;
-    padding: 1rem;
-    border-radius: 10px;
-    margin: 2rem auto;
-    font-weight: bold;
-    max-width: 600px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    animation: resaltar 1s infinite alternate;
-}
 
 @keyframes resaltar {
     from {
@@ -180,4 +172,23 @@ footer {
     display: block;
     position: relative;
     opacity: 1;
+}
+
+.slider3 {
+    text-align: center;
+    /* Centra la imagen */
+    
+}
+
+.slider3 img {
+    max-width: 100%;
+    /* Ajusta el ancho máximo de la imagen */
+    width: 100%;
+    /* Para que sea responsive */
+    height: auto;
+    /* Mantiene proporción */
+    border-radius: 12px;
+    /* Bordes redondeados */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    /* Sombra elegante */
 }
